@@ -63,7 +63,7 @@ img {
 }
 .konten h4 {
     color: black;
-    padding: 0rem 2rem;
+    padding: 1rem 2rem;
 }
 .grid>article{
     box-shadow: 5px 5px 5px 0px black;
@@ -81,7 +81,7 @@ img {
 .logo img div {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 70%;
     object-fit: cover;
 }
 .foto img{
