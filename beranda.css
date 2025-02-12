@@ -195,7 +195,7 @@ nav div h4 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
+    padding: 30px;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto; 
@@ -253,5 +253,5 @@ nav div h4 {
 }
 .footer .footer-right span {
     display: block;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
 }
