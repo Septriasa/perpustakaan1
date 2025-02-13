@@ -199,3 +199,104 @@ img {
 .baris-kedua p {
     color: #918f8f;
 }
+
+.novel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7E99A3;
+    position: relative;
+    flex: 1;
+    margin: 5px;
+    max-width: 200px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50px;
+    margin-right: 1500px;
+    color: white;
+}
+
+.baris-ketiga h3 {
+    padding: 1rem 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.grid> article {
+    box-shadow: 5px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background: white;
+    width: 250px;
+    transition: transform;
+}
+.grid>article img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*width: 100%;*/
+}
+
+.baris-ketiga p {
+    color: #918f8f;
+}
+
+.cerita-rakyat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7E99A3;
+    position: relative;
+    flex: 1;
+    margin: 5px;
+    max-width: 200px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50px;
+    margin-right: 1500px;
+    color: white;
+}
+
+.baris-keempat h3 {
+    padding: 1rem 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.grid> article {
+    box-shadow: 5px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background: white;
+    width: 250px;
+    transition: transform;
+}
+.grid>article img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*width: 100%;*/
+}
+
+.baris-keempat p {
+    color: #918f8f;
+}
+
