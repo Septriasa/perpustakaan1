@@ -13,6 +13,9 @@ body {
 }
 nav {
     background-color: #7E99A3;
+
+
+    
     display: flex;
     justify-content: space-between;
     padding: 0rem 1rem;
@@ -24,7 +27,6 @@ nav div h4 {
     margin-right: 308px;
     margin-left: 15px;
     font-weight: 500px;
-    left: auto;
 }
 nav ul {
     display: flex;
