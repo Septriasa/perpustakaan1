@@ -13,9 +13,6 @@ body {
 }
 nav {
     background-color: #7E99A3;
-
-
-    
     display: flex;
     justify-content: space-between;
     padding: 0rem 1rem;
@@ -101,15 +98,6 @@ nav div h4 {
     text-align: center;
     color: white;
 }
-.teks h2{
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 50px;
-} 
-.tulis {
-    text-align: center;
-    margin-bottom: 30px;
-}
 .kotak {
   display: flex;
   justify-content: space-between;
@@ -183,15 +171,10 @@ nav div h4 {
     margin-top: 10px;
     text-align: center;
 }
-
 .grid-perpus img {
     width: 100%;
     height: auto;
     border-radius: 20px;
-}
-.konten {
-    padding: 10px;
-    color: white; 
 }
 .footer {
     background-color: #7E99A3;
