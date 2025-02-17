@@ -335,12 +335,10 @@ img {
     margin-top: 30px; 
     font-weight: 600; 
 }
-
 .footer .footer-middle-links {
     display: flex;
     gap: 40px; 
 }
-
 .footer .footer-middle a {
     color: white;
     text-decoration: none;
