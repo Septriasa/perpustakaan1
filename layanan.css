@@ -50,12 +50,10 @@ nav ul li a {
       transition:all;
       transition-duration: 300ms;   
 }
-
 .logo circle{
     width:80px ;
       border-radius:  80%;
       top:80;
-
 }
    
 nav div img{ 
@@ -65,7 +63,6 @@ nav div img{
 nav ul li a:hover {
     color:black;
        border-bottom: 1px solid ;
-
 }
 
 .logo img{
@@ -76,4 +73,71 @@ nav ul li a:hover {
 
 .aw {
     margin-right: 700px;
+}
+.teks {
+    margin-top: 20px;
+    font-size: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav div h4 {
+    text-align: center;
+    color: white;
+}
+body {
+    margin: 0;
+    pad: 0;
+    min-height: 100vh;
+}
+.container {
+    margin: 20px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E99A3;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 960px;
+    height: 80px;
+    margin: 10px;
+}
+nav div h4 {
+    text-align: center;
+    color: white;
+}
+body {
+    margin: 0;
+    pad: 0;
+    min-height: 100vh;
+}
+.container {
+  margin: 20px;
+}
+.row {
+    width: 100;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E99A3;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 960px;
+    height: 80px;
+    margin: 10px;
 }

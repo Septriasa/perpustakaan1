@@ -13,6 +13,9 @@ body {
 }
 nav {
     background-color: #7E99A3;
+
+
+    
     display: flex;
     justify-content: space-between;
     padding: 0rem 1rem;
@@ -253,5 +256,5 @@ nav div h4 {
 }
 .footer .footer-right span {
     display: block;
-    margin-bottom: 5px; 
+    margin-bottom: 7px; 
 }
