@@ -25,6 +25,10 @@ nav div h4 {
     margin-left: 15px;
     font-weight: 500px;
 }
+div h5 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -42,8 +46,8 @@ nav ul li a {
     /* padding: 0px 5px; */
 }
 nav ul li a:hover {
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 1px solid black;
+    color: black;
 }
 .logo-circle {
     border-radius: 50%;
