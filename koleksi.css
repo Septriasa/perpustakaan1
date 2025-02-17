@@ -27,7 +27,7 @@ nav div h4 {
 }
 div h5 {
     margin-top: 20px;
-    margin-left: 500px;
+    align-items: center;
 }
 nav ul {
     display: flex;
