@@ -68,7 +68,7 @@ nav ul li a {
     position:absolute;
     height: 10px;
     width: auto;
-    left: 43rem;
+    right: 10rem;
     top: 90rem;
 }
 
@@ -76,7 +76,7 @@ nav ul li a {
     position:absolute;
     height: 10px;
     width: auto;
-    left: 43rem;
+    left: 10rem;
     top: 90rem;
 }
 
@@ -87,9 +87,44 @@ nav ul li a {
     width: 100%;
 }
 
-.terserah h4 {
+.terserah2{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 120rem;
+}
+
+.terserah3{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 130rem;
+}
+
+.terserah4{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 140rem;
+}
+
+.terserah2 h4 {
     position: absolute;
     left: 40rem;
+    background-color:cadetblue;
+    border-radius: 10px;
+}
+
+.terserah3 h4 {
+    position: absolute;
+    /* left: 5rem; */
+    background-color:cadetblue;
+    border-radius: 10px;
+}
+
+.terserah4 h4 {
+    position: absolute;
+    /* left: 5rem; */
     background-color:cadetblue;
     border-radius: 10px;
 }
