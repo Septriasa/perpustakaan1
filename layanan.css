@@ -24,6 +24,7 @@ nav div h4 {
     margin-right: 308px;
     margin-left: 15px;
     font-weight: 500px;
+    color: white;
 }
 nav ul {
     display: flex;
@@ -52,25 +53,80 @@ nav ul li a:hover {
     width: 100px;
 }
 .teks1 h1 {
-    margin-top: 0px;
+    margin-top: 15px;
     margin-left: 0px;
 }
 .teks1 h4 {
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .teks2 h4 {
     margin-left: 25px;
+    margin-top: 10px;
 }
-.grid-foto h4 {
+.grid-fasilitas h4 {
     text-align: center;
-    margin-top: 19px;
+    margin-top: 50px;
     font-size: 25px;
     float: left;
     margin-right: 10px;
     margin-left: 10px;
 }
-.grid-foto>article{
+.grid-fasilitas>article{
+    border-radius: 60px;
+    background: #7E99A3;
+    width: 200px;
+    transition: transform;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 100px;
+}
+
+.grid-fasilitas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto; 
+    align-items: center;
+    grid-gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto; 
+    align-items: center;
+    grid-gap: 50px;
+    margin-bottom: 40px;
+    justify-content: center; 
+    margin-bottom: 40px;
+    justify-content: center; 
+}
+.grid-fasilitas>article{
+    border-radius: 60px;
+    background: #7E99A3;
+    width: 300px;
+    transition: transform;
+    position: absolute;
+    margin-left: 450px;
+}
+.grid-fasilitas h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 25px;
+    color: white;
+}
+
+
+.grid-pojok {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto; 
+    align-items: center;
+    grid-gap: 40px;
+    margin-bottom: 20px;
+    justify-content: center; 
+}
+.grid-pojok>article{
     border-radius: 60px;
     background: #7E99A3;
     width: 200px;
@@ -78,72 +134,11 @@ nav ul li a:hover {
     position: absolute;
     margin-left: 340px;
 }
-.teks1 h4 {
-    font-style: normal;
-}
-
-.footer {
-    background-color: #7E99A3;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 30px;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto; 
-}
-
-.footer .footer-left {
-    color: #EBD9C8;
-    font-size: 18px;
-    text-align: left;
-}
-
-.footer .footer-left span {
-    display: block;
-    font-weight: bold; 
-}
-.footer .footer-left .jalan {
-    color: white;
-    font-size: 12px; 
-    margin-top: 5px;
-}
-.footer .footer-middle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px; 
-    font-weight: 600; 
-}
-
-.footer .footer-middle-links {
-    display: flex;
-    gap: 40px; 
-}
-
-.footer .footer-middle a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-.footer .footer-middle a:hover {
-    color: black;
-    text-decoration: none;
-}
-.footer .footer-middle-email {
-    color: white;
-    margin-top: 20px; 
-    font-size: 16px;
-}
-.footer .footer-right {
-    font-size: 16px;
-    color: white;
-    text-align: left; 
-    width: 300px; 
-}
-.footer .footer-right span {
-    display: block;
-    margin-bottom: 7px; 
+.grid-pojok h3 {
+    text-align: center;
+    margin-top: 19px;
+    font-size: 25px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
 }
