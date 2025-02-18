@@ -64,6 +64,23 @@ nav ul li a {
     top: 60rem;
 }
 
+.person2{
+    position:absolute;
+    height: 10px;
+    width: auto;
+    left: 43rem;
+    top: 90rem;
+}
+
+.person3{
+    position:absolute;
+    height: 10px;
+    width: auto;
+    left: 43rem;
+    top: 90rem;
+}
+
+
 .terserah{
     position: absolute;
     text-align: center;
@@ -73,7 +90,7 @@ nav ul li a {
 .terserah h4 {
     position: absolute;
     left: 40rem;
-    background-color: aqua;
+    background-color:cadetblue;
     border-radius: 10px;
 }
 
