@@ -67,10 +67,14 @@ nav ul li a:hover {
 .grid-fasilitas h4 {
     text-align: center;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 20px;
     float: left;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+ .grid-fasilitas  h3{
+    margin-left: 20px;
+    color: white;
 }
 .grid-fasilitas>article{
     border-radius: 60px;
@@ -97,48 +101,25 @@ nav ul li a:hover {
     justify-content: center; 
     margin-bottom: 40px;
     justify-content: center; 
+    
+    
 }
 .grid-fasilitas>article{
     border-radius: 60px;
     background: #7E99A3;
-    width: 300px;
+    width: 400px;
     transition: transform;
     position: absolute;
     margin-left: 450px;
+
 }
 .grid-fasilitas h4 {
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
     float: left;
-    margin-right: 20px;
-    margin-left: 25px;
+    margin-right: 10px;
+    margin-left: 20px;
     color: white;
 }
 
-
-.grid-pojok {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 auto; 
-    align-items: center;
-    grid-gap: 40px;
-    margin-bottom: 20px;
-    justify-content: center; 
-}
-.grid-pojok>article{
-    border-radius: 60px;
-    background: #7E99A3;
-    width: 200px;
-    transition: transform;
-    position: absolute;
-    margin-left: 340px;
-}
-.grid-pojok h3 {
-    text-align: center;
-    margin-top: 19px;
-    font-size: 25px;
-    float: left;
-    margin-right: 30px;
-    margin-left: 10px;
-}

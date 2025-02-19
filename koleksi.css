@@ -25,9 +25,11 @@ nav div h4 {
     margin-left: 15px;
     font-weight: 300px;
 }
-div h5 {
-    margin-top: 20px;
-    margin-left: 535px;
+div article h3 {
+    margin-top: 30px;
+    margin-left: 500px;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
 }
 nav ul {
     display: flex;
@@ -40,7 +42,7 @@ nav div img {
 }
 nav ul li a {
     text-decoration: none;
-    font-family: "Segoe UI" 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     color: white;
     font-weight: 500;
     /* padding: 0px 5px; */
@@ -59,6 +61,9 @@ nav ul li a:hover {
 nav div h4 {
     text-align: center;
     color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', sans-serif;
 }
 .name {
     margin: 20px;
