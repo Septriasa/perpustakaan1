@@ -51,6 +51,8 @@ nav ul li a:hover {
     margin-top: 4px;
     width: 100px;
 }
+/* end */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -58,6 +60,7 @@ nav ul li a:hover {
     align-items: center;
     grid-gap: 30px;
 }
+
 img {
     object-fit: cover;
 }
@@ -116,8 +119,9 @@ nav div h4 {
 
 .konten p {
   margin: 0;
-  font-size: 5px; 
+  font-size: 15px; 
   color: #333; 
+  margin-top: 5px;
 }
 
 .grid-foto {
@@ -176,6 +180,9 @@ nav div h4 {
     height: auto;
     border-radius: 20px;
 }
+
+/* footer */
+
 .footer {
     background-color: #7E99A3;
     display: flex;
@@ -214,6 +221,7 @@ nav div h4 {
 .footer .footer-middle-links {
     display: flex;
     gap: 40px; 
+    margin-bottom: 10px;
 }
 
 .footer .footer-middle a {
@@ -229,6 +237,11 @@ nav div h4 {
 .footer .footer-middle-email {
     color: white;
     margin-top: 20px; 
+    font-size: 16px;
+}
+.footer .footer-middle-instagram {
+    color: white;
+    margin-top: 5px; 
     font-size: 16px;
 }
 .footer .footer-right {
