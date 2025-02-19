@@ -158,18 +158,20 @@ nav ul li a:hover {
 .foto img {
     width: 100%;
 }
-
+ 
+/* bagian footer */
 .footer {
     position: absolute;
     background-color: #7E99A3;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 25px;
+    padding: 30px;
     width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1235px;
     top: 150rem;
+    right: 25px;
+    left: 25px;
 }
 
 .footer .footer-left {
@@ -199,6 +201,7 @@ nav ul li a:hover {
 .footer .footer-middle-links {
     display: flex;
     gap: 40px; 
+    margin-bottom: 10px;
 }
 
 .footer .footer-middle a {
@@ -214,6 +217,11 @@ nav ul li a:hover {
 .footer .footer-middle-email {
     color: white;
     margin-top: 20px; 
+    font-size: 16px;
+}
+.footer .footer-middle-instagram {
+    color: white;
+    margin-top: 5px; 
     font-size: 16px;
 }
 .footer .footer-right {

@@ -18,17 +18,16 @@ nav {
     padding: 0rem 1rem;
     left: 30px;
 }
-nav div h4 {
-    margin-bottom: 15px;
-    margin-top: 23px;
-    margin-right: 308px;
-    margin-left: 15px;
-    font-weight: 300px;
+.h3 {
+    font-family: 'Segoe UI', sans-serif;
 }
-div article h3 {
-    margin-top: 30px;
-    margin-left: 500px;
-    color: black;
+nav div h4 {
+    margin-bottom: 20px;
+    margin-top: 23px;
+    margin-right: 400px;
+    margin-left: 15px;
+    font-weight: 500px;
+    color: white;
     font-family: 'Segoe UI', sans-serif;
 }
 nav ul {
@@ -55,16 +54,10 @@ nav ul li a:hover {
     border-radius: 50%;
     overflow: hidden;
     margin-top: 4px;
-    margin-right: 20px;
     width: 100px;
 }
-nav div h4 {
-    text-align: center;
-    color: white;
-    margin-top: 30px;
-    margin-left: 50px;
-    font-family: 'Segoe UI', sans-serif;
-}
+/* end */
+
 .name {
     margin: 20px;
 }
@@ -76,19 +69,12 @@ nav div h4 {
     flex-wrap: wrap;
 }
 
-div h1 {
-    font-family:monospace;
-    color: #a7a4a4;
-    text-align: center;
-    
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin: 80px;
     align-items: center;
-    grid-gap: 30px;
+    grid-gap: 50px;
 }
 img {
     object-fit: cover;
@@ -108,7 +94,7 @@ img {
 .grid>article img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /**width: 100%;**/
+    /*width: 100%;*/
 }
 
 .grid-foto {
@@ -135,8 +121,10 @@ img {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
+    font-family: 'Segoe UI', sans-serif;
 }
 
+/* footer */
 .footer {
     background-color: #7E99A3;
     display: flex;
@@ -198,5 +186,5 @@ img {
 }
 .footer .footer-right span {
     display: block;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
