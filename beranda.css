@@ -63,7 +63,7 @@ img {
 }
 .konten h4 {
     color: black;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
 }
 .grid>article{
     box-shadow: 5px 5px 5px 0px black;
@@ -116,7 +116,7 @@ nav div h4 {
 
 .konten p {
   margin: 0;
-  font-size: 14px; 
+  font-size: 5px; 
   color: #333; 
 }
 
@@ -130,16 +130,16 @@ nav div h4 {
     justify-content: center; 
 }
 .grid-foto>article{
-    border-radius: 60px;
+    border-radius: 50px;
     background: #7E99A3;
     width: 200px;
     transition: transform;
     position: absolute;
-    margin-left: 340px;
+    margin-left: 320px;
 }
 .grid-foto h4 {
     text-align: center;
-    margin-top: 19px;
+    margin-top: 20px;
     font-size: 25px;
     float: left;
     margin-right: 10px;
