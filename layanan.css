@@ -125,14 +125,30 @@ nav ul li a:hover {
     color: white;
 
 }
-.testulis h4 {
+.testulis h2 {
     position: absolute;
     background-color: #7E99A3;
     width: auto;
-    border-radius: 20px;
-    left: 30px;
-    margin-top: 25px;
+    border-radius: 30px;
+    left: 65px;
+    margin-top: 50px;
     color: white;
 }
+.kotak {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.kotak img{
+    width: 30%; 
+  height: 250px; 
+  object-fit: cover; 
+  margin-top: 90px;
+  border-radius: 25px;
+
+}
+
+
+
 
 
