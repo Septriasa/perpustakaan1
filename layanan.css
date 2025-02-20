@@ -125,27 +125,71 @@ nav ul li a:hover {
     color: white;
 
 }
-.testulis h2 {
+.testulis h4 {
     position: absolute;
-    background-color: #7E99A3;
-    width: auto;
-    border-radius: 30px;
-    left: 65px;
+    border-radius: 20px;
+    left: 150px;
     margin-top: 50px;
-    color: white;
+    color: black;
 }
+
 .kotak {
     display: flex;
     justify-content: space-between;
     gap: 20px; 
 }
 .kotak img{
-    width: 30%; 
+    width: 400px;
   height: 250px; 
   object-fit: cover; 
-  margin-top: 90px;
-  border-radius: 25px;
+  margin-top: 100px;
+  border-radius: 20px;
+  margin-left: 45px;
 
+}
+.ebew h4 {
+    position: absolute;
+    border-radius: 20px;
+    right: 200px;
+    margin-bottom: 50px;
+    margin-top: -300px;
+    color: black;
+
+}
+.ebew {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ebew img {
+    position: absolute;
+    border-radius: 20px;
+    right: 80px;
+    margin-top: -249px;
+    height: 250px;
+    width: 400px;
+}
+.hapus h4 {
+    position: absolute;
+    border-radius: 20px;
+    right: 200px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    color: black;
+}
+.hapus {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.hapus img {
+    position: absolute;
+    border-radius: 20px;
+    right: 80px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 400px;
 }
 
 
