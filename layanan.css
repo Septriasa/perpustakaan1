@@ -82,8 +82,9 @@ nav ul li a:hover {
     width: 200px;
     transition: transform;
     position: absolute;
-    margin-left: 340px;
+    margin-left: 300px;
     margin-top: 100px;
+    margin-left: 35px;
 }
 
 .grid-fasilitas {
@@ -111,6 +112,7 @@ nav ul li a:hover {
     transition: transform;
     position: absolute;
     margin-left: 450px;
+    margin-right: 25px;
 
 }
 .grid-fasilitas h4 {
@@ -118,9 +120,19 @@ nav ul li a:hover {
     margin-top: 10px;
     font-size: 20px;
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left: 20px;
     color: white;
-    
+
 }
+.testulis h4 {
+    position: absolute;
+    background-color: #7E99A3;
+    width: auto;
+    border-radius: 20px;
+    left: 30px;
+    margin-top: 25px;
+    color: white;
+}
+
 
