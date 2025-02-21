@@ -1,3 +1,4 @@
+/* navbar */
 *, html {
     padding: 0;
     margin: 0;
@@ -124,57 +125,18 @@ nav div h4 {
   margin-top: 5px;
 }
 
-.grid-foto {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 auto; 
-    align-items: center;
-    grid-gap: 40px;
-    margin-bottom: 20px;
-    justify-content: center; 
-}
-.grid-foto>article{
-    border-radius: 50px;
-    background: #7E99A3;
-    width: 200px;
-    transition: transform;
-    position: absolute;
-    margin-left: 320px;
-}
-.grid-foto h4 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
+.buku {
+    margin-left: 425px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid-perpus {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 auto; 
-    align-items: center;
-    grid-gap: 40px;
-    margin-bottom: 20px;
-    justify-content: center; 
+.perpus {
+    margin-left: 355px;
+    margin-top: -40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid-perpus article {
-    border-radius: 60px;
-    background: #7E99A3;
-    width: 200px;
-    transition: transform;
-    position: absolute;
-    margin-left: 340px;
-}
-.grid-perpus h4 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: black; 
-    margin-top: 10px;
-    text-align: center;
-}
 .grid-perpus img {
     width: 100%;
     height: auto;
