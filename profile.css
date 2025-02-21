@@ -168,10 +168,8 @@ nav ul li a:hover {
     align-items: flex-start;
     padding: 30px;
     width: 100%;
-    max-width: 1235px;
+    max-width: px;
     top: 150rem;
-    right: 25px;
-    left: 25px;
 }
 
 .footer .footer-left {
