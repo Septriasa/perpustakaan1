@@ -88,16 +88,17 @@ nav ul li a:hover {
     top: 85rem;
 }
 
-
-.terserah{
-    position: absolute;
-    text-align: center;
-    width: auto;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 20px;
+.grid{
+  position: absolute;
+  text-align: center;
+  left: 19rem;
+  top: 55rem;
+  width: 50%;
 }
-
+.grid{
+     background-color: #7E99A3;
+    border-radius: 20px;
+}
 .terserah2{
     position: absolute;
     text-align: center;
@@ -168,7 +169,7 @@ nav ul li a:hover {
     align-items: flex-start;
     padding: 30px;
     width: 100%;
-    max-width: px;
+    max-width: 1300px;
     top: 150rem;
 }
 
