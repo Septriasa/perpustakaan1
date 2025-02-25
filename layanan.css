@@ -174,7 +174,7 @@ nav ul li a:hover {
     border-radius: 20px;
     right: 200px;
     margin-bottom: 50px;
-    margin-top: -15px;
+    margin-top: 40px;
     color: black;
 }
 .hapus {
@@ -186,11 +186,113 @@ nav ul li a:hover {
     position: absolute;
     border-radius: 20px;
     right: 80px;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 60px;
     height: 250px;
     width: 400px;
 }
+.anu h4 {
+    position: absolute;
+    border-radius: 20px;
+    left: 200px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    color: black;
+}
+
+.anu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.anu img {
+    position: absolute;
+    border-radius: 20px;
+    left: 48px;
+    margin-top: 90px;
+    margin-bottom: 59px;
+    height: 250px;
+    width: 400px;
+}
+
+/* bagian footer */
+.footer {
+    position: absolute;
+    background-color: #7E99A3;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    width: 100%;
+    max-width: 1300px;
+    top: 1999px;
+
+}
+
+.footer .footer-left {
+    color: #EBD9C8;
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer .footer-left span {
+    display: block;
+    font-weight: bold; 
+}
+.footer .footer-left .jalan {
+    color: white;
+    font-size: 12px; 
+    margin-top: 5px;
+}
+.footer .footer-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+    font-weight: 600; 
+}
+
+.footer .footer-middle-links {
+    display: flex;
+    gap: 40px; 
+    margin-bottom: 10px;
+}
+
+.footer .footer-middle a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.footer .footer-middle a:hover {
+    color: black;
+    text-decoration: none;
+}
+.footer .footer-middle-email {
+    color: white;
+    margin-top: 20px; 
+    font-size: 16px;
+}
+.footer .footer-middle-instagram {
+    color: white;
+    margin-top: 5px; 
+    font-size: 16px;
+}
+.footer .footer-right {
+    font-size: 16px;
+    color: white;
+    text-align: left; 
+    width: 300px; 
+}
+.footer .footer-right span {
+    display: block;
+    margin-bottom: 7px; 
+}
+
+
+
+
 
 
 
