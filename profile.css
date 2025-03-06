@@ -1,3 +1,4 @@
+/* navbar */
 *, html {
     padding: 0;
     margin: 0;
@@ -51,6 +52,7 @@ nav ul li a:hover {
     margin-top: 4px;
     width: 100px;
 }
+/* end */
 
 .nama {
     color: white;
@@ -233,12 +235,4 @@ nav ul li a:hover {
     display: block;
     margin-bottom: 7px; 
 }
-
-
-
-
-
-
-
-
-
+/* end */
